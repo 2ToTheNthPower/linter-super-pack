@@ -1,0 +1,38 @@
+{
+  "name": "linter-super-pack",
+  "displayName": "Linter Super Pack",
+  "description": "Collection of linters and formatters for languages and file formats commonly found in python projects.",
+  "version": "0.0.1",
+  "publisher": "2ToTheNthPower",
+  "icon": "python-linter.png",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "charliermarsh.ruff", 
+    "davidanson.vscode-markdownlint", 
+    "exiasr.hadolint", 
+    "foxundermoon.shell-format", 
+    "graphql.vscode-graphql", 
+    "graphql.vscode-graphql-syntax", 
+    "htmlhint.vscode-htmlhint", 
+    "mikestead.dotenv", 
+    "mine.cpplint", 
+    "monosans.djlint", 
+    "ms-kubernetes-tools.vscode-kubernetes-tools", 
+    "ms-python.debugpy", 
+    "ms-python.python", 
+    "ms-python.vscode-pylance", 
+    "plex.vscode-protolint", 
+    "redhat.vscode-yaml", 
+    "streetsidesoftware.code-spell-checker", 
+    "streetsidesoftware.code-spell-checker-cspell-bundled-dictionaries", 
+    "stylelint.vscode-stylelint", 
+    "timonwong.shellcheck", 
+    "wekex.jsonlint", 
+    "yzhang.markdown-all-in-one"
+  ]
+}
